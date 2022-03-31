@@ -1,0 +1,24 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+body
+{
+background-image: linear-gradient(to right top, #f5e28f, #f3e852, #ecb869, #fa9907, #ff7c73);
+}
+.header
+{
+	color: white;font-family: 'Comfortaa', cursive;font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+#login_div{
+    background: rgba(255, 251, 251, 0.8);float: none;border-radius: 15px; padding: inherit; width:500px; height:150px;
+}
+#usernamelabel{
+    color:black;font-family: 'Comfortaa', cursive;font-size: 30px;letter-spacing: 2px;margin-top: 20px;
+}
+#login_button{
+    color:black; 
+}

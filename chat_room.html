@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>Lets Chat!</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="chat_room.css">
+
+</head>
+<body>
+    <div class="container">
+        <button id="logout" onclick="logout()" class="glyphicon glyphicon-log-out">Logout</button>
+        <center>
+            <h1 class="header">	
+                Lets Chat!	<sup>
+            <img src="th__46_-removebg-preview.png">
+            </sup>
+        </h1>
+        <div id="user_name_div" >
+        <h1 id = "user_name_label">Hllo</h1>     
+        
+    </div>
+        
+        <div id="addroom_div"class="form-group">
+            <label id = "addroomlabel" >Add Room</label>
+            <br>
+             <input id="room_name_input" type="text" class="form-control" placeholder="Enter your room name">
+             <br>
+             <button id="add_room_button" onclick = "add_room()">Add Room</button>
+             <br><br>
+            </div>
+            </center>
+            <script src="chat_room.js"></script>
+            </body>
+            </html>
